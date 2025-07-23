@@ -7,6 +7,15 @@
 }
 .container{
     max-width: 1280px;
+    margin: 80px auto;
+}
+.btn{
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    color: white;
+    background-color: #E02C6D;
+    border: none;
 }
 /* navbar styles */
 .navbar{
@@ -26,4 +35,35 @@
     list-style: none;
     font-weight: 500;
     color: rgba(58, 58, 58, 1);
+}
+/* banner section  */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+.banner h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.banner p{
+    color: #3A3A3A;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+.banner-img{
+    display: flex;
+    width: 475px;
+    height: 475px;
+}
+.banner-img img{
+    width: 100%;
+}
+.banner-bg-img{
+    transform: translateX(-490px);
+}
+#banner-main-img{
+    z-index: 1;
 }
