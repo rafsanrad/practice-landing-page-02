@@ -1,0 +1,29 @@
+/* common styles  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    max-width: 1280px;
+}
+/* navbar styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto;
+}
+.navbar h4{
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-items {
+    display: flex;
+    gap: 30px;
+}
+.nav-items li{
+    list-style: none;
+    font-weight: 500;
+    color: rgba(58, 58, 58, 1);
+}
